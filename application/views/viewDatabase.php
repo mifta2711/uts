@@ -1,5 +1,4 @@
 <html>
-
 <body>
 <h2>Daftar Barang</h2>
 <div>
