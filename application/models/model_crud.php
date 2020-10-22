@@ -16,7 +16,7 @@ class Model_crud extends CI_Model
 		$this->db->where($pk,$id);
 		return $this->db->get($tabel);
 	}
-	public function UpdateData($tabel, $data, $pk, $id)
+	public function UpdateData($tabel, $data, $pk, $id) //ini kan ada 4 variable
 	{
 		$this->db->where($pk,$id);
 		$res = $this->db->update($tabel,$data);
