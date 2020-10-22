@@ -24,7 +24,7 @@ class uts_barang extends CI_Controller
 			
 			redirect ('uts_barang');
 		}else{
-			$this->load->view('insert');
+			$this->load->view('insert'); //$this->load->view('nama file difolder view');
 		}
 	}
 	public function update ()
