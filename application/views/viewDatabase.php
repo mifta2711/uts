@@ -1,4 +1,5 @@
 <html>
+
 <body>
 <h2>Daftar Barang</h2>
 <div>
@@ -14,13 +15,13 @@
 <th>Keterangan</th>
 <th>Action</th>
 
-</tr>
-<?php
+            </tr>
+            <?php
 $no=1;
 foreach($data as $r) {
 ?>
 
-<tr>
+            <tr>
 
 <td><?php echo $no ?></td>
 <td><?php echo $r['kode_barang'] ?></td>
@@ -32,12 +33,13 @@ foreach($data as $r) {
 	<a href="<?=base_url().'index.php/uts_barang/delete/'.$r['kode_barang']?>">Hapus</a>
 </td>
 
-</tr>
-<?php
+            </tr>
+            <?php
 $no++;
 }
 ?>
-</table>
-</div>
+        </table>
+    </div>
 </body>
+
 </html>
